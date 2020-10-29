@@ -14,3 +14,14 @@ def order(x):
     # Variable to store
           
     return n
+import string 
+  
+def ispangram(str): 
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+      
+# Driver code 
+string = 'the quick brown fox jumps over the lazy dog'
+if(ispangram(string) == True): 
+    print("Yes") 
+else: 
+    print("No") 
